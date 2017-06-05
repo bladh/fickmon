@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Grass",
+    "weakTo": [
+      "Fire",
+      "Flying",
+      "Bug",
+      "Poison",
+      "Ice"
+    ],
+    "resistantTo": [
+      "Water",
+      "Electric",
+      "Grass",
+      "Ground"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 2,
+    "name": "Fire",
+    "weakTo": [
+      "Water",
+      "Rock",
+      "Ground"
+    ],
+    "resistantTo": [
+      "Bug",
+      "Fire",
+      "Grass"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 3,
+    "name": "Ground",
+    "weakTo": [
+      "Water",
+      "Ice",
+      "Grass"
+    ],
+    "resistantTo": [
+      "Poison",
+      "Rock"
+    ],
+    "immuneTo": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Flying",
+    "weakTo": [
+      "Electric",
+      "Rock",
+      "Ice"
+    ],
+    "resistantTo": [
+      "Bug",
+      "Fighting",
+      "Grass"
+    ],
+    "immuneTo": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Fighting",
+    "weakTo": [
+      "Flying",
+      "Psychic"
+    ],
+    "resistantTo": [
+      "Bug",
+      "Rock"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 6,
+    "name": "Bug",
+    "weakTo": [
+      "Rock",
+      "Fire",
+      "Flying",
+      "Poison"
+    ],
+    "resistantTo": [
+      "Fighting",
+      "Grass",
+      "Ground"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 7,
+    "name": "Psychic",
+    "weakTo": [
+      "Bug"
+    ],
+    "resistantTo": [
+      "Fighting",
+      "Psychic"
+    ],
+    "immuneTo": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ghost",
+    "weakTo": [
+      "Ghost"
+    ],
+    "resistantTo": [
+      "Bug",
+      "Poison"
+    ],
+    "immuneTo": [
+      "Normal",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Normal",
+    "weakTo": [
+      "Fighting"
+    ],
+    "resistantTo": [],
+    "immuneTo": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Rock",
+    "weakTo": [
+      "Fighting",
+      "Grass",
+      "Ground",
+      "Water"
+    ],
+    "resistantTo": [
+      "Fire",
+      "Flying",
+      "Normal",
+      "Poison"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 11,
+    "name": "Poison",
+    "weakTo": [
+      "Psychic",
+      "Ground",
+      "Bug"
+    ],
+    "resistantTo": [
+      "Fighting",
+      "Poison",
+      "Grass"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 12,
+    "name": "Water",
+    "weakTo": [
+      "Electric",
+      "Grass"
+    ],
+    "resistantTo": [
+      "Fire",
+      "Ice",
+      "Water"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 13,
+    "name": "Ice",
+    "weakTo": [
+      "Fighting",
+      "Fire",
+      "Rock"
+    ],
+    "resistantTo": [
+      "Ice"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 14,
+    "name": "Dragon",
+    "weakTo": [
+      "Dragon",
+      "Ice"
+    ],
+    "resistantTo": [
+      "Water",
+      "Electric",
+      "Grass",
+      "Fire"
+    ],
+    "immuneTo": []
+  },
+  {
+    "id": 15,
+    "name": "Electric",
+    "weakTo": [
+      "Ground"
+    ],
+    "resistantTo": [
+      "Electric",
+      "Flying"
+    ],
+    "immuneTo": []
+  }
+]
