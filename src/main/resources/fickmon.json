@@ -7,10 +7,12 @@
     "frontImagePath": "",
     "backImagePath": "",
     "smallImagePath": "",
+    "baseHealth": 0,
     "baseAttack": 0,
     "baseDefence": 0,
     "baseSpeed": 0,
     "baseSpecial": 0,
+    "perLevelHealth": 0,
     "perLevelAttack": 0,
     "perLevelDefence": 0,
     "perLevelSpeed": 0,
@@ -24,6 +26,8 @@
         "level": 12,
         "move": "Ember"
       }
-    ]
+    ],
+    "evolutionLevel": 16,
+    "evolutionMon": "Ivysaur"
   }
 ]
