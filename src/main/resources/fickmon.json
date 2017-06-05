@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseAttack": 0,
+    "baseDefence": 0,
+    "baseSpeed": 0,
+    "baseSpecial": 0,
+    "perLevelAttack": 0,
+    "perLevelDefence": 0,
+    "perLevelSpeed": 0,
+    "perLevelSpecial": 0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  }
+]
