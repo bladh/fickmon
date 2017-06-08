@@ -20,5 +20,5 @@ data class Fickmon(
         val perLevelSpecial: Double,
         val learnedMoves: Map<Int, Move>,
         val evolutionLevel: Int,
-        val evolutionMon: Fickmon
+        val evolutionMon: String
 )
