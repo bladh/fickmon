@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Grass",
     "weakTo": [
       "Fire",
@@ -14,11 +13,9 @@
       "Electric",
       "Grass",
       "Ground"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 2,
     "name": "Fire",
     "weakTo": [
       "Water",
@@ -29,11 +26,9 @@
       "Bug",
       "Fire",
       "Grass"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 3,
     "name": "Ground",
     "weakTo": [
       "Water",
@@ -49,7 +44,6 @@
     ]
   },
   {
-    "id": 4,
     "name": "Flying",
     "weakTo": [
       "Electric",
@@ -66,7 +60,6 @@
     ]
   },
   {
-    "id": 5,
     "name": "Fighting",
     "weakTo": [
       "Flying",
@@ -75,11 +68,9 @@
     "resistantTo": [
       "Bug",
       "Rock"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 6,
     "name": "Bug",
     "weakTo": [
       "Rock",
@@ -91,11 +82,9 @@
       "Fighting",
       "Grass",
       "Ground"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 7,
     "name": "Psychic",
     "weakTo": [
       "Bug"
@@ -109,7 +98,6 @@
     ]
   },
   {
-    "id": 8,
     "name": "Ghost",
     "weakTo": [
       "Ghost"
@@ -124,18 +112,15 @@
     ]
   },
   {
-    "id": 9,
     "name": "Normal",
     "weakTo": [
       "Fighting"
     ],
-    "resistantTo": [],
     "immuneTo": [
       "Ghost"
     ]
   },
   {
-    "id": 10,
     "name": "Rock",
     "weakTo": [
       "Fighting",
@@ -148,11 +133,9 @@
       "Flying",
       "Normal",
       "Poison"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 11,
     "name": "Poison",
     "weakTo": [
       "Psychic",
@@ -163,11 +146,9 @@
       "Fighting",
       "Poison",
       "Grass"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 12,
     "name": "Water",
     "weakTo": [
       "Electric",
@@ -177,11 +158,9 @@
       "Fire",
       "Ice",
       "Water"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 13,
     "name": "Ice",
     "weakTo": [
       "Fighting",
@@ -190,11 +169,9 @@
     ],
     "resistantTo": [
       "Ice"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 14,
     "name": "Dragon",
     "weakTo": [
       "Dragon",
@@ -205,11 +182,9 @@
       "Electric",
       "Grass",
       "Fire"
-    ],
-    "immuneTo": []
+    ]
   },
   {
-    "id": 15,
     "name": "Electric",
     "weakTo": [
       "Ground"
@@ -217,7 +192,6 @@
     "resistantTo": [
       "Electric",
       "Flying"
-    ],
-    "immuneTo": []
+    ]
   }
 ]
