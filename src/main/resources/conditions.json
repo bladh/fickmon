@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Poison",
+    "short": "PSN",
+    "message": "has been poisoned!",
+    "type": "Poison",
+    "ownTypeResists": true,
+    "canOverrideCondition": true,
+    "persistAfterBattle": true,
+    "hpLostPerTurn": 6.25,
+    "hpLostKind": "percent",
+    "inhibitsMoves": false,
+    "selfCureInTurns": 0
+  },
+  {
+    "name": "Levitate",
+    "short": "LEV",
+    "message": "is levitating!",
+    "ownTypeResists": false,
+    "canOverrideCondition": false,
+    "selfCureInTurns": 5,
+    "weakType": [
+      "Electric"
+    ],
+    "immuneType": [
+      "Ground"
+    ]
+  }
+]
