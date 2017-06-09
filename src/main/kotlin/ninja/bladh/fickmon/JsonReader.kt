@@ -27,9 +27,9 @@ class JsonReader {
         val typeList: MutableList<Type> = ArrayList()
         val data = read("/types.json")
         data.forEach { json ->
-            val weakness = (json["weakTo"] as Iterable<*>? ?: ArrayList<String>()).map { it as String }
-            val resistance = (json["resistantTo"] as Iterable<*>? ?: ArrayList<String>()).map { it as String }
-            val immune = (json["immuneTo"] as Iterable<*>? ?: ArrayList<String>()).map { it as String }
+            val weakness = (json["weakTo"] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
+            val resistance = (json["resistantTo"] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
+            val immune = (json["immuneTo"] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
             typeList.add(Type(
                     name = json["name"] as String,
                     weakTo = weakness,
