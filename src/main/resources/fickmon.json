@@ -29,5 +29,2287 @@
     ],
     "evolutionLevel": 16,
     "evolutionMon": "Ivysaur"
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 36,
+    "evolutionMon": "Venusaur"
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 16,
+    "evolutionMon": "Charmeleon"
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 36,
+    "evolutionMon": "Charizard"
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "primaryType": "Fire",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "primaryType": "Water",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 16,
+    "evolutionMon": "Wartortle"
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "primaryType": "Water",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 36,
+    "evolutionMon": "Blastoise"
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "primaryType": "Water",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "primaryType": "Bug",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 7,
+    "evolutionMon": "Metapod"
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "primaryType": "Bug",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 10,
+    "evolutionMon": "Butterfree"
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "primaryType": "Bug",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "primaryType": "Bug",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 7,
+    "evolutionMon": "Kakuna"
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "primaryType": "Bug",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 10,
+    "evolutionMon": "Beedrill"
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "primaryType": "Bug",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "primaryType": "Normal",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 18,
+    "evolutionMon": "Pidgeotto"
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "primaryType": "Normal",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 36,
+    "evolutionMon": "Pidgeot"
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "primaryType": "Normal",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 20,
+    "evolutionMon": "Raticate"
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "primaryType": "Normal",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 20,
+    "evolutionMon": "Fearow"
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "primaryType": "Normal",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "primaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 22,
+    "evolutionMon": "Arbok"
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "primaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "primaryType": "Electric",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Thunderstone",
+    "evolutionMon": "Raichu"
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "primaryType": "Electric",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "primaryType": "Ground",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 22,
+    "evolutionMon": "Sandslash"
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "primaryType": "Ground",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "primaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 16,
+    "evolutionMon": "Nidorina"
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "primaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Moonstone",
+    "evolutionMon": "Nidoqueen"
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "primaryType": "Poison",
+    "secondaryType": "Ground",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "primaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 16,
+    "evolutionMon": "Nidorino"
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "primaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Moonstone",
+    "evolutionMon": "Nidoking"
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "primaryType": "Poison",
+    "secondaryType": "Ground",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Moonstone",
+    "evolutionMon": "Clefable"
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Firestone",
+    "evolutionMon": "Ninetales"
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Moonstone",
+    "evolutionMon": "Wigglytuff"
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "primaryType": "Poison",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 22,
+    "evolutionMon": "Golbat"
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "primaryType": "Poison",
+    "secondaryType": "Flying",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 21,
+    "evolutionMon": "Gloom"
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Leafstone",
+    "evolutionMon": "Vileplume"
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "primaryType": "Bug",
+    "secondaryType": "Grass",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 24,
+    "evolutionMon": "Parasect"
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "primaryType": "Bug",
+    "secondaryType": "Grass",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "primaryType": "Bug",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 31,
+    "evolutionMon": "Venomoth"
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "primaryType": "Bug",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "primaryType": "Ground",
+    "secondaryType": "",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 26,
+    "evolutionMon": "Dugtrio"
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "primaryType": "Ground",
+    "secondaryType": "",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 28,
+    "evolutionMon": "Persian"
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "primaryType": "Normal",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "primaryType": "Water",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 33,
+    "evolutionMon": "Golduck"
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "primaryType": "Water",
+    "secondaryType": "Psychic",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "primaryType": "Fighting",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 28,
+    "evolutionMon": "Primeape"
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "primaryType": "Fighting",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Firestone",
+    "evolutionMon": "Arcanine"
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "primaryType": "Water",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 25,
+    "evolutionMon": "Poliwhirl"
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "primaryType": "Water",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Waterstone",
+    "evolutionMon": "Poliwrath"
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "primaryType": "Water",
+    "secondaryType": "Fighting",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "primaryType": "Psychic",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 16,
+    "evolutionMon": "Kadabra"
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "primaryType": "Psychic",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 36,
+    "evolutionMon": "Alakazam"
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "primaryType": "Psychic",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "primaryType": "Fighting",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 28,
+    "evolutionMon": "Machoke"
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "primaryType": "Fighting",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 44,
+    "evolutionMon": "Machamp"
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "primaryType": "Fighting",
+    "secondaryType": "",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 21,
+    "evolutionMon": "Weepinbell"
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionStone": "Leafstone",
+    "evolutionMon": "Victreebel"
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "primaryType": "Grass",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "primaryType": "Water",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 30,
+    "evolutionMon": "Tentacruel"
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "primaryType": "Water",
+    "secondaryType": "Poison",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "primaryType": "Rock",
+    "secondaryType": "Ground",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 25,
+    "evolutionMon": "Graveler"
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "primaryType": "Rock",
+    "secondaryType": "Ground",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 39,
+    "evolutionMon": "Golem"
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "primaryType": "Rock",
+    "secondaryType": "Ground",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ],
+    "evolutionLevel": 40,
+    "evolutionMon": "Rapidash"
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "primaryType": "Fire",
+    "frontImagePath": "",
+    "backImagePath": "",
+    "smallImagePath": "",
+    "baseHealth": 0.0,
+    "baseAttack": 0.0,
+    "baseDefence": 0.0,
+    "baseSpeed": 0.0,
+    "baseSpecial": 0.0,
+    "perLevelHealth": 0.0,
+    "perLevelAttack": 0.0,
+    "perLevelDefence": 0.0,
+    "perLevelSpeed": 0.0,
+    "perLevelSpecial": 0.0,
+    "learnedMoves": [
+      {
+        "level": 7,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 12,
+        "move": "Ember"
+      }
+    ]
   }
 ]
