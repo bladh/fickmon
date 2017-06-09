@@ -61,6 +61,44 @@ class JsonReader {
         return moveList
     }
 
+    private fun readStrings(value: String, obj: JsonObject): List<String> {
+        return (obj[value] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
+    }
+
+    fun readConditions(types: List<Type>): List<Condition> {
+        val conditionList: MutableList<Condition> = ArrayList()
+        val data = read("/conditions.json")
+        data.forEach { json ->
+            val type = types.filter { it.name == json["type"] }.firstOrNull() ?: noType
+            val affectStats: List<String> = readStrings("affectStats", json)
+            val resistType: List<String> = readStrings("resistType", json)
+            val weakType: List<String> = readStrings("weakType", json)
+            val immuneType: List<String> = readStrings("immuneType", json)
+            conditionList.add(Condition(
+                    type = type,
+                    name = json["name"] as String,
+                    short = json["short"] as String,
+                    message = json["message"] as String,
+                    ownTypeResists = json["ownTypeResists"] as? Boolean ?: false,
+                    canOverrideCondition = json["canOverrideCondition"] as? Boolean ?: false,
+                    persistAfterBattle = json["persistAfterBattle"] as? Boolean ?: false,
+                    hpLostPerTurn = json["hpLostPerTurn"] as? Double ?: 0.0,
+                    hpLostKind = json["hpLostKind"] as? Int ?: 0,
+                    statAffectAmount = json["statAffectAmount"] as? Double ?: 0.0,
+                    statAffectKind = json["statAffectKind"] as? Int ?: 0,
+                    opponentHpLostPerTurn = json["opponentLostPerTurn"] as? Double ?: 0.0,
+                    opponentHpLostKind = json["opponentHpLostKind"] as? Int ?: 0,
+                    inhibitsMoves = json["inhibitsMoves"] as? Boolean ?: false,
+                    selfCureInTurns = json["selfCureInTurns"] as? Int ?: 0,
+                    affectsStat = affectStats,
+                    resistType = resistType,
+                    weakType = weakType,
+                    immuneType = immuneType
+            ))
+        }
+        return conditionList
+    }
+
     fun readFickmon(types: List<Type>, moves: List<Move>): List<Fickmon> {
         val monList: MutableList<Fickmon> = ArrayList()
         val data = read("/fickmon.json")
