@@ -1,11 +1,291 @@
 [
   {
-    "name": "Vine Whip",
+    "name": "Absord",
     "type": "Grass",
     "isPhysical": false,
     "maxPP": 25,
-    "power": 45,
+    "power": 20,
+    "accuracy": 100,
+    "critical": 5
+  },
+  {
+    "name": "Acid",   //May Poison
+    "type": "Poison",
+    "isPhysical": false,
+    "maxPP": 30,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Agility",    //Raises Speed
+    "type": "Psychic",
+    "maxPP": 30,
+    "causeCondition": "Agility"
+  },
+  {
+    "name": "Amnesia",    //Lowers Speed, Raises Defense and Special
+    "type": "Psychic",
+    "maxPP": 20,
+    "causeCondition": "Amnesia"
+  },
+  {
+    "name": "Aurora Beam",    //May freeze Enemy
+    "type": "Ice",
+    "isPhysical": false,
+    "maxPP": 20,
+    "power": 65,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Barrage",    //2-5 Attacks in 1 turn
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 15,
+    "accuracy": 85,
+    "critical": 10
+  },
+  {
+    "name": "Barrier",    //Raises Defense
+    "type": "Psychic",
+    "maxPP": 20,
+    "causeCondition": "Barrier"
+  },
+  {
+    "name": "Bide",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 10,
+    "causeCondition": "Bide"
+  },
+  {
+    "name": "Bind",   //2-5 Attacks, Binds enemy
+    "type": "",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 15,
+    "accuracy": 85,
+    "causeCondition": "Bind"
+  },
+  {
+    "name": "Bite",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 25,
+    "power": 60,
+    "accuracy": 100,
+    "critical": 15
+  },
+  {
+    "name": "Blizzard",   //May Freeze enemy
+    "type": "Ice",
+    "isPhysical": false,
+    "maxPP": 5,
+    "power": 110,
+    "accuracy": 70,
+    "critical": 10
+  },
+  {
+    "name": "Body Slam",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 85,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Bone Club",    //May Flinch Enemy
+    "type": "Ground",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 65,
+    "accuracy": 85,
+    "critical": 10
+  },
+  {
+    "name": "Bonemerang",   //Hits twice in 1 turn
+    "type": "Ground",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 50,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Bubble",
+    "type": "Water",
+    "isPhysical": false,
+    "maxPP": 30,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Bubblebeam",
+    "type": "Water",
+    "isPhysical": false,
+    "maxPP": 20,
+    "power": 65,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Clamp",    //2-5 Hits, Binds enemy
+    "type": "Water",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 35,
+    "accuracy": 85,
+    "causeCondition": "Bind"
+  },
+  {
+    "name": "Comet Punch",    //2-5 hits in 1 turn
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 18,
+    "accuracy": 85,
+    "critical": 10
+  },
+  {
+    "name": "Confuse Ray",    //Confuse enemy
+    "type": "Ghost",
+    "isPhysical": false,
+    "maxPP": 10,
+    "accuracy": 100,
+    "causeCondition": "Confusion"
+  },
+  {
+    "name": "Confusion",    //May cause confusion
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 25,
+    "power": 50,
+    "accuracy": 100,
+    "critical": 10,
+    "causeCondition": "Confusion"
+  },
+  {
+    "name": "Constrict",    //2-5 Attacks, Binds enemy
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 10,
+    "accuracy": 100,
+    "critical": 10,
+    "causeCondition": "Bind"
+  },
+  {
+    "name": "Counter",    //Take damage and return double
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 20,
+    "accuracy": 100,
+    "causeCondition": "Counter"
+  },
+  {
+    "name": "Crabhammer",
+    "type": "Water",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 100,
+    "accuracy": 90,
+    "critical": 20
+  },
+  {
+    "name": "Cut",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 30,
+    "power": 50,
+    "accuracy": 95,
+    "critical": 10
+  },
+  {
+    "name": "Defense Curl",   //Boost Defense
+    "type": "Normal",
+    "maxPP": 40,
+    "causeCondition": "Defense"
+  },
+  {
+    "name": "Dig",    //2-turn Attack
+    "type": "Ground",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 80,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Disable",     //Enemys latest move is disabled for 3-5 turns.
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20,
+    "accuracy": 100,
+    "causeCondition": "Disable"
+  },
+  {
+    "name": "Double Kick",    //Hits twice in 1 turn
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 30,
+    "power": 30,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Double Slap",    //Hits 2-5 times in 1 turn
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 15,
+    "accuracy": 85,
+    "critical": 10
+  },
+  {
+    "name": "Double Team",    //Raises Evasion
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 15,
+    "causeCondition": "Evasion"
+  },
+  {
+    "name": "Double-Edge",    //Return 7.5% of damage dealt to yourself
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 120,
+    "accuracy": 100,
+    "critical": 10,
+    "causeCondition": "Return Damage"
+  },
+  {
+    "name": "Dragon Rage",    //Always deals 40 damage
+    "type": "Dragon",
+    "isPhysical": false,
+    "maxPP": 10,
+    "accuracy": 100
+  },
+  {
+    "name": "Dream Eater",    //Only usable while target is Asleep
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 100,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Drillpeck",
+    "type": "Flying",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 80,
     "accuracy": 100,
     "critical": 10
   }
+
 ]

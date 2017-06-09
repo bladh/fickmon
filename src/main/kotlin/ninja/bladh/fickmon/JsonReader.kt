@@ -92,7 +92,8 @@ class JsonReader {
                     affectsStat = affectStats,
                     resistType = resistType,
                     weakType = weakType,
-                    immuneType = immuneType
+                    immuneType = immuneType,
+                    causeCondition = json["causeCondition"] as? String ?: ""
             ))
         }
         return conditionList

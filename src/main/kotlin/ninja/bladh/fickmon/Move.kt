@@ -8,5 +8,6 @@ data class Move(
         val maxPP: Int,
         val power: Int,
         val accuracy: Int,
-        val critical: Int
+        val critical: Int,
+        val causeCondition: String
 )
