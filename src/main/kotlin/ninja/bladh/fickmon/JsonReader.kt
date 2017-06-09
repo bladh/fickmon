@@ -6,6 +6,8 @@ import com.beust.klaxon.Parser
 import java.net.URL
 import java.util.*
 
+val noType: Type = Type("None", ArrayList<String>(), ArrayList<String>(), ArrayList<String>())
+
 class JsonReader {
     private fun read(resourceFile: String): JsonArray<JsonObject> {
         val url: URL? = JsonReader::class.java.getResource(resourceFile)
@@ -71,7 +73,7 @@ class JsonReader {
                     id = json["id"] as Int,
                     name = json["name"] as String,
                     primaryType = primary,
-                    secondaryType = secondary ?: Type("None", ArrayList<String>(), ArrayList<String>(), ArrayList<String>()),
+                    secondaryType = secondary ?: noType,
                     frontImagePath = json["frontImagePath"] as String,
                     backImagePath = json["backImagePath"] as String,
                     smallImagePath = json["smallImagePath"] as String,
