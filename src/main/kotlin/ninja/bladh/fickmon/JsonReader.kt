@@ -23,13 +23,17 @@ class JsonReader {
         return moveList.filter { it.name == moveName }.first()
     }
 
+    private fun readStrings(value: String, obj: JsonObject): List<String> {
+        return (obj[value] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
+    }
+
     fun readTypes(): List<Type> {
         val typeList: MutableList<Type> = ArrayList()
         val data = read("/types.json")
         data.forEach { json ->
-            val weakness = (json["weakTo"] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
-            val resistance = (json["resistantTo"] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
-            val immune = (json["immuneTo"] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
+            val weakness = readStrings("weakTo", json)
+            val resistance = readStrings("resistantTo", json)
+            val immune = readStrings("immuneTo", json)
             typeList.add(Type(
                     name = json["name"] as String,
                     weakTo = weakness,
@@ -59,10 +63,6 @@ class JsonReader {
 
         }
         return moveList
-    }
-
-    private fun readStrings(value: String, obj: JsonObject): List<String> {
-        return (obj[value] as? Iterable<*> ?: ArrayList<String>()).map { it as String }
     }
 
     fun readConditions(types: List<Type>): List<Condition> {
