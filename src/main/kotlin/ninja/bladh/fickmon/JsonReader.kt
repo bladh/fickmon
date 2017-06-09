@@ -50,7 +50,6 @@ class JsonReader {
         data.forEach { json ->
             val type: Type = types.filter { it.name == (json["type"] as String) }.first()
             moveList.add(Move(
-                    id = json["id"] as Int,
                     name = json["name"] as String,
                     message = json["message"] as? String ?: "",
                     isPhysical = json["isPhysical"] as Boolean,
