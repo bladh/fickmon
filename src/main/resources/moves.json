@@ -1,6 +1,6 @@
 [
   {
-    "name": "Absord",
+    "name": "Absorb",                                                     //Status Conditions are set on critical strike(Burn, Freeze, poison, paralyzis and confusion)
     "type": "Grass",
     "isPhysical": false,
     "maxPP": 25,
@@ -9,13 +9,13 @@
     "critical": 5
   },
   {
-    "name": "Acid",   //May Poison
+    "name": "Acid",
     "type": "Poison",
     "isPhysical": false,
     "maxPP": 30,
     "power": 40,
     "accuracy": 100,
-    "critical": 10
+    "critical": 7
   },
   {
     "name": "Agility",    //Raises Speed
@@ -30,13 +30,13 @@
     "causeCondition": "Amnesia"
   },
   {
-    "name": "Aurora Beam",    //May freeze Enemy
+    "name": "Aurora Beam",
     "type": "Ice",
     "isPhysical": false,
     "maxPP": 20,
     "power": 65,
     "accuracy": 100,
-    "critical": 10
+    "critical": 7
   },
   {
     "name": "Barrage",    //2-5 Attacks in 1 turn
@@ -79,13 +79,13 @@
     "critical": 15
   },
   {
-    "name": "Blizzard",   //May Freeze enemy
+    "name": "Blizzard",
     "type": "Ice",
     "isPhysical": false,
     "maxPP": 5,
     "power": 110,
     "accuracy": 70,
-    "critical": 10
+    "critical": 7
   },
   {
     "name": "Body Slam",
@@ -159,13 +159,13 @@
     "causeCondition": "Confusion"
   },
   {
-    "name": "Confusion",    //May cause confusion
+    "name": "Confusion",
     "type": "Psychic",
     "isPhysical": false,
     "maxPP": 25,
     "power": 50,
     "accuracy": 100,
-    "critical": 10,
+    "critical": 7,
     "causeCondition": "Confusion"
   },
   {
@@ -286,6 +286,1017 @@
     "power": 80,
     "accuracy": 100,
     "critical": 10
+  },
+  {
+    "name": "Earthquake",
+    "type": "Ground",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 100,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Egg Bomb",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 100,
+    "accuracy": 75,
+    "critical": 10
+  },
+  {
+    "name": "Ember",
+    "type": "Fire",
+    "isPhysical": false,
+    "maxPP": 25,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Explosion",    //User Faints
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 5,
+    "power": 250,
+    "accuracy": 100
+  },
+  {
+    "name": "Fire Blast",
+    "type": "Fire",
+    "isPhysical": false,
+    "maxPP": 5,
+    "power": 110,
+    "accuracy": 80,
+    "critical": 7
+  },
+  {
+    "name": "Fire Punch",
+    "type": "Fire",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 75,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Fire Spin",    //Traps oppenent for 2-5 rounds
+    "type": "Fire",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 35,
+    "accuracy": 85,
+    "critical": 10
+  },
+  {
+    "name": "Fissure",    //One-hitKO
+    "type": "Ground",
+    "isPhysical": true,
+    "maxPP": 5,
+    "accuracy": 10
+  },
+  {
+    "name": "Flamethrower",
+    "type": "Fire",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 90,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Flash",    //Lowers enemy accuracy
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20,
+    "accuracy": 100
+  },
+  {
+    "name": "Fly",    //2-turn attack
+    "type": "Flying",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 90,
+    "accuracy": 95,
+    "critical": 10
+  },
+  {
+    "name": "Focus Energy",   //Doubles Critical
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 30
+  },
+  {
+    "name": "Fury Attacks",   //Hits 2-5 times in a turn
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 15,
+    "accuracy": 80,
+    "critical": 10
+  },
+  {
+    "name": "Fury Swipes",    //Hits 2-5 times in a turn
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 18,
+    "accuracy": 80,
+    "critical": 10
+  },
+  {
+    "name": "Glare",    //Paralyze enemy
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 30,
+    "accuracy": 100
+  },
+  {
+    "name": "Growl",    //Lowers enemy attacks
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 40,
+    "accuracy": 100
+  },
+  {
+    "name": "Growth",   //Raises user's Attack and Special
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 40
+  },
+  {
+    "name": "Guillotine",    //One-hit-KO
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 5,
+    "accuracy": 5
+  },
+  {
+    "name": "Gust",
+    "type": "Flying",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Harden",   //Raises user's Defence
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 30
+  },
+  {
+    "name": "Haze",   //Resets all Stat-Changes
+    "type": "Ice",
+    "isPhysical": false,
+    "maxPP": 30
+  },
+  {
+    "name": "Headbutt",   //May cause Flinching
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 70,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "High Jump Kick",   //If miss, user loses half current HP
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 130,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Horn Attack",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 25,
+    "power": 65,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Horn Drill",   //One-hit-KO
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 5
+  },
+  {
+    "name": "Hydro Pump",
+    "type": "Water",
+    "isPhysical": false,
+    "maxPP": 5,
+    "power": 110,
+    "accuracy": 80,
+    "critical": 10
+  },
+  {
+    "name": "Hyper Beam",   //User must recharge next round
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 5,
+    "power": 150,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Hyper Fang",   //May cause Flinching
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 80,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Hypnosis",   //Puts enemy to sleep
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 20,
+    "accuracy": 60
+  },
+  {
+    "name": "Ice Beam",
+    "type": "Ice",
+    "isPhysical": false,
+    "maxPP": 10,
+    "power": 90,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Ice Punch",
+    "type": "Ice",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 75,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Jump Kick",    //If miss, user loses half current HP
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 100,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Karate Chop",
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 25,
+    "power": 50,
+    "accuracy": 100,
+    "critical": 20
+  },
+  {
+    "name": "Kinesis",    //Lowers enemy accuracy
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 15,
+    "accuracy": 80
+  },
+  {
+    "name": "Leech Life",   //User recovers 50% of damage dealt
+    "type": "Bug",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 20,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Leech Seed",   //User drains 6% of enemy HP each turn
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 10,
+    "accuracy": 90
+  },
+  {
+    "name": "Leer",   //Lowers enemy Defence
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 30,
+    "accuracy": 100
+  },
+  {
+    "name": "Lick",   //Paralyze
+    "type": "Ghost",
+    "isPhysical": true,
+    "maxPP": 30,
+    "power": 30,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Light Screen",   //Halves damage from special attacks for 5 turns
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 30
+  },
+  {
+    "name": "Lovely Kiss",    //Puts enemy asleep
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 10,
+    "accuracy": 75
+  },
+  {
+    "name": "Low Kick",
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 60,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Meditate",   //Raises user's Attack
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 40
+  },
+  {
+    "name": "Mega Drain",   //User recovers 50% of damage dealt
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Mega Kick",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 5,
+    "power": 120,
+    "accuracy": 75,
+    "critical": 10
+  },
+  {
+    "name": "Mega Punch",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 80,
+    "accuracy": 85,
+    "critical": 10
+  },
+  {
+    "name": "Metronome",    //Uses random ability
+    "type": "Normal",
+    "maxPP": 10
+  },
+  {
+    "name": "Mimic",    //Copies enemy's last move
+    "type": "Normal",
+    "maxPP": 10
+  },
+  {
+    "name": "Minimize",   //Raises user evasion
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 10
+  },
+  {
+    "name": "Mirror Move",    //User performs enemys last move
+    "type": "Flying",
+    "maxPP": 20
+  },
+  {
+    "name": "Mist",   //User's stats cannot be changed for 5 turns
+    "type": "Ice",
+    "isPhysical": false,
+    "maxPP": 30
+  },
+  {
+    "name": "Night Shade",
+    "type": "Ghost",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 75,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Pay Day",    //Gain bonus money at the end of the battle
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Peck",
+    "type": "Flying",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 35,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Petal Dance",    //User attacks for 2-3 moves and becomes confused afterwards
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 10,
+    "power": 120,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Pin Missile",    //User attacks 2-5 times in 1 turn
+    "type": "Bug",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 25,
+    "accuracy": 95,
+    "critical": 10
+  },
+  {
+    "name": "Poison Gas",   //Poisons enemy
+    "type": "Poison",
+    "isPhysical": false,
+    "maxPP": 40,
+    "accuracy": 90
+  },
+  {
+    "name": "Poison Powder",    //Poisons enemy
+    "type": "Poison",
+    "isPhysical": false,
+    "maxPP": 35,
+    "accuracy": 75
+  },
+  {
+    "name": "Poison Sting",
+    "type": "Poison",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 15,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Pound",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Psybeam",
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 20,
+    "power": 65,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Psychic",
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 10,
+    "power": 90,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Psywave",
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 55,
+    "accuracy": 80,
+    "critical": 7
+  },
+  {
+    "name": "Quick Attack",   //User attacks first
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 30,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Rage",   //Raises user's attack when hit
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 20,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Razor Leaf",
+    "type": "Grass",
+    "isPhysical": true,
+    "maxPP": 25,
+    "power": 55,
+    "accuracy": 95,
+    "critical": 20
+  },
+  {
+    "name": "Razor Wind",   //2-turn attack
+    "type": "Flying",
+    "isPhysical": false,
+    "maxPP": 10,
+    "power": 80,
+    "accuracy": 100,
+    "critical": 20
+  },
+  {
+    "name": "Recover",    //Recover 50% of total HP
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 10
+  },
+  {
+    "name": "Reflect",    //Halves damage from physical attacks for 5 turns
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 20
+  },
+  {
+    "name": "Rest",   //User sleeps for 2 turns but is fully healed
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 10
+  },
+  {
+    "name": "Roar",   //In battle, enemy switch beltmon. In the wild the enemy runs
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20
+  },
+  {
+    "name": "Rock Slide",   //May flinch enemy
+    "type": "Rock",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 75,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Rock Throw",
+    "type": "Rock",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 50,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Sand Attack",    //Lowers enemy accuracy
+    "type": "Ground",
+    "isPhysical": false,
+    "maxPP": 15,
+    "accuracy": 100
+  },
+  {
+    "name": "Scratch",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Screech",    //Lowers enemy Defence
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 40,
+    "accuracy": 85
+  },
+  {
+    "name": "Seismic Toss",   //Inflict damage equal to user's level
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 20,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Self-destruct",    //User Faints
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 5,
+    "power": 200,
+    "accuracy": 100
+  },
+  {
+    "name": "Sharpen",    //Raises user Attack
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 30
+  },
+  {
+    "name": "Sing",   //Puts enemy asleep
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 15,
+    "accuracy": 55
+  },
+  {
+    "name": "Skull Bash",   //2-turn attack
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 130,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Sky Attack",   //2-turn Attack, flinching
+    "type": "Flying",
+    "isPhysical": true,
+    "maxPP": 5,
+    "power": 140,
+    "accuracy": 90,
+    "critical": 7
+  },
+  {
+    "name": "Slam",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 80,
+    "accuracy": 75,
+    "critical": 10
+  },
+  {
+    "name": "Slash",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 70,
+    "accuracy": 100,
+    "critical": 20
+  },
+  {
+    "name": "Sleep Powder",   //Puts enemy asleep
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 15,
+    "accuracy": 75
+  },
+  {
+    "name": "Sludge",
+    "type": "Poison",
+    "isPhysical": false,
+    "maxPP": 20,
+    "power": 65,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Smog",
+    "type": "Poison",
+    "isPhysical": false,
+    "maxPP": 20,
+    "power": 30,
+    "accuracy": 70,
+    "critical": 7
+  },
+  {
+    "name": "Smokescreen",    //Lowers enemy accuracy
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20,
+    "accuracy": 100
+  },
+  {
+    "name": "Soft-Boiled",    //Recovers 50% hp
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 10
+  },
+  {
+    "name": "Solar Beam",   //2-turn attack
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 10,
+    "power": 120,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Sonic Boom",   //Always deals 20 damage
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20,
+    "accuracy": 90
+  },
+  {
+    "name": "Splash",   //Does absolutely nothing
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 40
+  },
+  {
+    "name": "Spore",    //Puts enemy asleep
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 15,
+    "accuracy": 100
+  },
+  {
+    "name": "Stomp",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 65,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Strenght",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 80,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "String Shot",    //Lowers enemy Speed
+    "type": "Bug",
+    "isPhysical": false,
+    "maxPP": 40,
+    "accuracy": 95
+  },
+  {
+    "name": "Struggle",   //Only usable when all PP is gone, damages user
+    "type": "Normal",
+    "isPhysical": true,
+    "power": 50,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Stun Spore",   //Paralyzes enemy
+    "type": "Grass",
+    "isPhysical": false,
+    "maxPP": 30,
+    "accuracy": 75
+  },
+  {
+    "name": "Submission",   //User recieves 6% recoil
+    "type": "Fighting",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 80,
+    "accuracy": 80,
+    "critical": 10
+  },
+  {
+    "name": "Super Fang",   //Always deals 50% of enemys current hp
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 10,
+    "accuracy": 90,
+    "critical": 10
+  },
+  {
+    "name": "Supersonic",   //Confuses enemy
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20,
+    "accuracy": 55
+  },
+  {
+    "name": "Surf",
+    "type": "Water",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 90,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Swift",    //Always hits, hits enemys that uses Fly/Dig as well
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20,
+    "power": 60,
+    "critical": 10
+  },
+  {
+    "name": "Swords Dance",   //Raises user's attack
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 20
+  },
+  {
+    "name": "Tackle",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Tail Whip",    //Lowers enemy Defence
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 30,
+    "accuracy": 100
+  },
+  {
+    "name": "Take Down",    //User takes 6% recoil
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 90,
+    "accuracy": 85,
+    "critical": 10
+  },
+  {
+    "name": "Teleport",   //Flees wild fights, teleport to last Beltmon Center used
+    "type": "Psychic",
+    "isPhysical": false,
+    "maxPP": 20
+  },
+  {
+    "name": "Thrash",   //User attacks for 2-3 turns and the becomes confused
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 10,
+    "power": 120,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Thunder",
+    "type": "Electric",
+    "isPhysical": false,
+    "maxPP": 10,
+    "power": 110,
+    "accuracy": 70,
+    "critical": 7
+  },
+  {
+    "name": "Thunder Punch",
+    "type": "Electric",
+    "isPhysical": true,
+    "maxPP": 15,
+    "power": 75,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Thunder Shock",
+    "type": "Electric",
+    "isPhysical": false,
+    "maxPP": 30,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Thunder Wave",   //Paralyze enemy
+    "type": "Electric",
+    "isPhysical": false,
+    "maxPP": 20,
+    "accuracy": 90
+  },
+  {
+    "name": "Thunderbolt",
+    "type": "Electric",
+    "isPhysical": false,
+    "maxPP": 15,
+    "power": 90,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Toxic",    //Poisons enemy
+    "type": "Poison",
+    "isPhysical": false,
+    "maxPP": 10,
+    "accuracy": 90
+  },
+  {
+    "name": "Transform",    //User takes on the form and attacks of the opponent
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 10
+  },
+  {
+    "name": "Tri Attack",   //Paralyze, burn or freeze opponent on critical strike
+    "type": "Normal",
+    "isPhysical": false,
+    "maxPP": 10,
+    "power": 80,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Twinneedle",   //Hits twice in 1 turn
+    "type": "Poison",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 25,
+    "accuracy": 100,
+    "critical": 7
+  },
+  {
+    "name": "Vice Grip",
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 30,
+    "power": 55,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Vine Whip",
+    "type": "Grass",
+    "isPhysical": true,
+    "maxPP": 25,
+    "power": 45,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Water Gun",
+    "type": "Water",
+    "isPhysical": false,
+    "maxPP": 25,
+    "power": 40,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Whirlwind",    //In battles, enemy switches beltmon. In the wild, the beltmon runs.
+    "type": "Flying",
+    "isPhysical": false,
+    "maxPP": 20
+  },
+  {
+    "name": "Wing Attack",
+    "type": "Flying",
+    "isPhysical": true,
+    "maxPP": 35,
+    "power": 60,
+    "accuracy": 100,
+    "critical": 10
+  },
+  {
+    "name": "Withdraw",   //Raises user's Defence
+    "type": "Water",
+    "isPhysical": false,
+    "maxPP": 40
+  },
+  {
+    "name": "Wrap",   //Traps enemy for 2-5 turns
+    "type": "Normal",
+    "isPhysical": true,
+    "maxPP": 20,
+    "power": 15,
+    "accuracy": 90,
+    "critical": 10
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]
