@@ -1,35 +1,67 @@
 package ninja.bladh.fickmon.statemachine
 
-open class StateMachine {
-    var iState: State? = null
-    var currentState: State? = null
-    var started: Boolean = false
+import java.util.concurrent.BlockingQueue
+import java.util.concurrent.LinkedBlockingQueue
 
-    fun setInitialState(state: State) {
-        if (!started) {
-            iState = state
-        } else {
-            throw IllegalStateException("Cannot set initial state on a running state machine")
-        }
+private class TransitionMessage(val state: State, val message: Message?)
+
+open class StateMachine : Runnable {
+
+    companion object {
+        private val TRANSITION: Int = 333
     }
 
-    fun start() {
+    private val messageQueue: BlockingQueue<Message> = LinkedBlockingQueue()
+    private var iState: State? = null
+    private var currentState: State? = null
+    private var started: Boolean = false
+
+    /**
+     * Set the starting state for this state machine.
+     * State machine will be unable to start properly if this is not set.
+     */
+    fun setInitialState(state: State) {
+        iState = if (!started) state else
+            throw IllegalStateException("Cannot set initial state on a running state machine")
+    }
+
+    override fun run() {
         if (iState == null) {
             throw IllegalStateException("Must define a initial state before starting state machine")
         }
         currentState = iState
         started = true
-        currentState!!.enter() // something is very wrong if we NPE here so throw it
-    }
+        currentState!!.enter(null) // something is very wrong if we NPE here so throw it
+        while (started) {
+            val message = messageQueue.poll()
+            var handled = false // looks stupid, but kept in case i want to handle other messages internally
+            if (message.code == TRANSITION) {
+                val transitionMessage = message.misc as? TransitionMessage
+                if (transitionMessage != null) {
+                    currentState?.leave()
+                    currentState = transitionMessage.state
+                    currentState?.enter(transitionMessage.message)
+                    handled = true
+                }
+            }
 
-    fun process(message: Message) : Boolean {
-        if (currentState == null) {
-            throw IllegalStateException("Current state is null")
+            if (!handled) {
+                process(message, currentState as? State ?: throw IllegalStateException("Current state is invalid!") )
+            }
         }
-        return process(message, currentState as State)
+        currentState?.leave()
     }
 
-    private fun process(message: Message, state: State) : Boolean {
+    /**
+     * Send a Message to be processed by the current state in the state machine (or by any of its parents)
+     *
+     * @param message: Message to be processed
+     */
+    fun process(message: Message) {
+        messageQueue.put(message)
+    }
+
+    private fun process(message: Message, state: State): Boolean {
         var handled = state.process(message)
         if (!handled) {
             if (state.parentState != null) {
@@ -41,13 +73,28 @@ open class StateMachine {
         return handled
     }
 
-    fun transitionTo(state: State) {
-        currentState?.leave()
-        currentState = state
-        currentState?.enter()
+    /**
+     * Transition to a different state, possibly delivering a starting message
+     *
+     * @param state: State to transition to.
+     * @param clearQueue: True if we want to clear the message queue and transition now,
+     *                    False if we want to wait for other messages to process
+     * @param message: Optional message to deliver upon transition
+     */
+    protected fun transitionTo(state: State, clearQueue: Boolean = true, message: Message? = null) {
+        if (clearQueue) {
+            messageQueue.clear()
+        }
+        process(Message(
+                code = TRANSITION,
+                misc = TransitionMessage(state, message)
+        ))
     }
 
+    /**
+     * Stops the state machine, but allowing it to finish what it's doing.
+     */
     fun stop() {
-        currentState?.leave()
+        started = false
     }
 }
