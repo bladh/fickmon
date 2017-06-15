@@ -13,7 +13,6 @@ open class StateMachine : Runnable {
 
     private val messageQueue: BlockingQueue<Message> = LinkedBlockingQueue()
     private var iState: State? = null
-    private var currentState: State? = null
     private var started: Boolean = false
 
     /**
@@ -26,30 +25,28 @@ open class StateMachine : Runnable {
     }
 
     override fun run() {
-        if (iState == null) {
-            throw IllegalStateException("Must define a initial state before starting state machine")
-        }
-        currentState = iState
+        var currentState = iState ?:
+                throw IllegalStateException("Must define a initial state before starting state machine")
         started = true
-        currentState!!.enter(null) // something is very wrong if we NPE here so throw it
+        currentState.enter(null)
         while (started) {
             val message = messageQueue.poll()
             var handled = false // looks stupid, but kept in case i want to handle other messages internally
             if (message.code == TRANSITION) {
                 val transitionMessage = message.misc as? TransitionMessage
                 if (transitionMessage != null) {
-                    currentState?.leave()
+                    currentState.leave()
                     currentState = transitionMessage.state
-                    currentState?.enter(transitionMessage.message)
+                    currentState.enter(transitionMessage.message)
                     handled = true
                 }
             }
 
             if (!handled) {
-                process(message, currentState as? State ?: throw IllegalStateException("Current state is invalid!") )
+                process(message, currentState)
             }
         }
-        currentState?.leave()
+        currentState.leave()
     }
 
     /**
