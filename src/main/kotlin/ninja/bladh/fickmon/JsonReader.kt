@@ -57,7 +57,8 @@ class JsonReader {
                     power = json["power"] as Int,
                     critical = json["critical"] as Int,
                     accuracy = json["accuracy"] as Int,
-                    type = type
+                    type = type,
+                    causeCondition = json["causeCondition"] as? String ?: ""
             ))
 
         }
@@ -92,8 +93,7 @@ class JsonReader {
                     affectsStat = affectStats,
                     resistType = resistType,
                     weakType = weakType,
-                    immuneType = immuneType,
-                    causeCondition = json["causeCondition"] as? String ?: ""
+                    immuneType = immuneType
             ))
         }
         return conditionList
