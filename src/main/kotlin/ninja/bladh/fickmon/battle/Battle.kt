@@ -19,14 +19,13 @@ private data class TurnChoice(val playerNum: Int, val action: Action)
  * one human and one AI.
  */
 
-class Battle(val random: Random, players: List<Player>) : StateMachine() {
+class Battle(val random: Random, players: List<Player>, val callbacks: BattleCallbacks) : StateMachine() {
 
     private val playerTurns = players.mapIndexed { index: Int, player: Player ->
         if (player.human) PlayerTurn(index, player) else AITurn(index, player)
     }
     private val main = Main()
     private val resolveState = Resolve()
-    private var callbacks: BattleCallbacks? = null
 
     override fun run() {
         initialState = main
@@ -69,7 +68,7 @@ class Battle(val random: Random, players: List<Player>) : StateMachine() {
 
         override fun enter(message: Message?) {
             // time to light up the instrument panel, notify the player to make a move
-            callbacks?.playerTurn(player)
+            callbacks.playerTurn(player)
         }
 
         override fun process(message: Message): Boolean {
@@ -129,7 +128,7 @@ class Battle(val random: Random, players: List<Player>) : StateMachine() {
                 return
             }
             if (!action.action.message.isEmpty()) {
-                callbacks?.message(action.action.message)
+                callbacks.message(action.action.message)
             }
             if (action.target != null) {
                 // we are attacking something
@@ -137,7 +136,7 @@ class Battle(val random: Random, players: List<Player>) : StateMachine() {
                 val typeMultiplier = (action.target.baseClass.primaryType relationTo action.action.type) *
                         (action.target.baseClass.secondaryType.relationTo(action.action.type))
                 if (typeMultiplier == 0.0) {
-                    callbacks?.message("${action.target.nickname} is immune!")
+                    callbacks.message("${action.target.nickname} is immune!")
                 } else {
                     val typeBonus = if (action.perpetrator.baseClass.primaryType == action.action.type
                             || action.perpetrator.baseClass.secondaryType == action.action.type)
@@ -161,14 +160,14 @@ class Battle(val random: Random, players: List<Player>) : StateMachine() {
                             critical = critical
                     )
                     action.target.hp -= damage
-                    callbacks?.update(action.target)
+                    callbacks.update(action.target)
                     if (critical > 1.0) {
-                        callbacks?.message("Critical hit!")
+                        callbacks.message("Critical hit!")
                     }
                     if (typeBonus > 2.0) {
-                        callbacks?.message("Its super effective!")
+                        callbacks.message("Its super effective!")
                     } else if (typeBonus < 1.0) {
-                        callbacks?.message("It's not very effective...")
+                        callbacks.message("It's not very effective...")
                     }
                 }
             }
