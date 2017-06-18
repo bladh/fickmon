@@ -30,14 +30,11 @@ open class StateMachine : Runnable {
         while (started) {
             val message = messageQueue.poll()
             var handled = false // looks stupid, but kept in case i want to handle other messages internally
-            if (message.code == TRANSITION) {
-                val transitionMessage = message.misc as? TransitionMessage
-                if (transitionMessage != null) {
-                    currentState.leave()
-                    currentState = transitionMessage.state
-                    currentState.enter(transitionMessage.message)
-                    handled = true
-                }
+            if (message.code == TRANSITION && message.misc is TransitionMessage) {
+                currentState.leave()
+                currentState = message.misc.state
+                currentState.enter(message.misc.message)
+                handled = true
             }
 
             if (!handled) {
