@@ -11,21 +11,19 @@ open class StateMachine : Runnable {
         private val TRANSITION: Int = 333
     }
 
-    private val messageQueue: BlockingQueue<Message> = LinkedBlockingQueue()
-    private var iState: State? = null
     private var started: Boolean = false
-
-    /**
-     * Set the starting state for this state machine.
-     * State machine will be unable to start properly if this is not set.
-     */
-    fun setInitialState(state: State) {
-        iState = if (!started) state else
+    private val messageQueue: BlockingQueue<Message> = LinkedBlockingQueue()
+    protected var initialState: State? = null
+    set(value) {
+        if (!started) {
+            field = value
+        } else {
             throw IllegalStateException("Cannot set initial state on a running state machine")
+        }
     }
 
     override fun run() {
-        var currentState = iState ?:
+        var currentState = initialState ?:
                 throw IllegalStateException("Must define a initial state before starting state machine")
         started = true
         currentState.enter(null)

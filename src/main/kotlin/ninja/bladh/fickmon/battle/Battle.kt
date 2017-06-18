@@ -29,7 +29,7 @@ class Battle(val random: Random, players: List<Player>) : StateMachine() {
     private var callbacks: BattleCallbacks? = null
 
     override fun run() {
-        setInitialState(main)
+        initialState = main
         super.run()
     }
 
