@@ -132,6 +132,7 @@ class Battle(val random: Random, players: List<Player>, val callbacks: BattleCal
             }
             if (action.target != null) {
                 // we are attacking something
+                if (action.target.hp < 1) return
 
                 val typeMultiplier = (action.target.baseClass.primaryType relationTo action.action.type) *
                         (action.target.baseClass.secondaryType.relationTo(action.action.type))
