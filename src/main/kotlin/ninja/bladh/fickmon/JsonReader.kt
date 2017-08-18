@@ -44,11 +44,13 @@ class JsonReader {
         return typeList
     }
 
-    fun readMoves(types: List<Type>): List<Move> {
+    fun readMoves(types: List<Type>, conditions: List<Condition>): List<Move> {
         val moveList: MutableList<Move> = ArrayList()
         val data = read("/moves.json")
         data.forEach { json ->
             val type: Type = types.filter { it.name == (json["type"] as String) }.first()
+            val conditionName = json["causeCondition"] as? String
+            val condition: Condition? = if (conditionName != null) conditions.filter { it.name == conditionName}.first() else null
             moveList.add(Move(
                     name = json["name"] as String,
                     message = json["message"] as? String ?: "",
@@ -58,7 +60,7 @@ class JsonReader {
                     critical = json["critical"] as Int,
                     accuracy = json["accuracy"] as Int,
                     type = type,
-                    causeCondition = json["causeCondition"] as? String ?: ""
+                    causeCondition = condition,
             ))
 
         }
@@ -137,7 +139,8 @@ class JsonReader {
 fun main(args: Array<String>) {
     val reader: JsonReader = JsonReader()
     val types = reader.readTypes()
-    val moves = reader.readMoves(types)
+    val conditions = reader.readConditions(types)
+    val moves = reader.readMoves(types, conditions)
     val mons = reader.readFickmon(types, moves)
     /*
     types.sortedBy(Type::name)

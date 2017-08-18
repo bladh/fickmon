@@ -9,5 +9,5 @@ data class Move(
         val power: Int,
         val accuracy: Int,
         val critical: Int,
-        val causeCondition: String
+        val causeCondition: Condition?
 )
