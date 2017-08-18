@@ -61,6 +61,7 @@ class JsonReader {
                     accuracy = json["accuracy"] as Int,
                     type = type,
                     causeCondition = condition,
+                    causeConditionChance = json["causeConditionChance"] as? Int ?: 0
             ))
 
         }
