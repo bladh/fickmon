@@ -9,6 +9,15 @@ open class StateMachine : Runnable {
 
     companion object {
         private val TRANSITION: Int = 333
+        /**
+         * HANDLED is used to tell the state machine that a message has been handled.
+         */
+        val HANDLED = true
+        /**
+         * UNHANDLED is used to tell the state machine that a message was not handled, and that it should be
+         * propagated to a parent state.
+         */
+        val UNHANDLED = false
     }
 
     private var started: Boolean = false
